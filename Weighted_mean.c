@@ -2,7 +2,6 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-#define ROUNDF(f, c) (((float)((int)((f) * (c))) / (c))) //This macro definition is so cool!!
 
 int main() {
     short int n;
@@ -25,7 +24,7 @@ int main() {
         weight_sum += weight[i];
         mean = (float)mean_sum/weight_sum;
     }
-         mean = ROUNDF(mean, 10);
+        mean = ((int)(mean * 10 + .5) / 10.0);
     printf("%.1f",mean);
     return 0;
 }
