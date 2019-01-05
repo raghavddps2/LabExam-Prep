@@ -75,7 +75,7 @@ void postfixEvaluation(char* postfix){ //Evaluation of postfix
                             isZero = 2;
                         }
                         else{
-                            push(op2/op1);
+                            push(op2/op1); 
                         }
             }
         }
