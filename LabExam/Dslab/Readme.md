@@ -7,3 +7,6 @@
 7. Binary tree creation and traversal
 8. Binary Search Tree ctreation and traversal
 9. Expression Tree creation and evaluation (Postfix expression)
+10. Program to implement a circular linked list.
+11. Program to implement a doubly linked list.
+
