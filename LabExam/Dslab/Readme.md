@@ -2,3 +2,5 @@
 2. program to evaluate a postfix expression
 3. program to implement a linear queue
 4. program to implement a circular queue.
+5. Program to implement a singly linked list.
+6. BinarySearch, GCD, Tower of hanoi problem
