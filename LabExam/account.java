@@ -55,15 +55,13 @@ class account{
 
         Scanner sc = new Scanner(System.in);
         account a1 = new account(); //Object reference for the account
-
+        
+    while(true){
         System.out.println("1.Enter the user details");
         System.out.println("2.Deposit money in the account");
         System.out.println("3.Withdraw money from the account");
         System.out.println("4.Get the account details");
         System.out.println("5. Exit!");
-
-        
-    while(true){
         System.out.print("Enter your choice:\t");
         int ch = sc.nextInt();
         switch(ch){
